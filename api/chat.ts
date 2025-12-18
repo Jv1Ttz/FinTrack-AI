@@ -136,7 +136,7 @@ export default async function handler(req, res) {
     // Tratamento amigável para limite de cota
     if (error.message && error.message.includes('429')) {
         return res.status(429).json({ 
-            text: "😅 Estou recebendo muitas mensagens agora! Espere 1 minutinho e tente de novo, por favor." 
+            text: "😅 Estou recebendo muitas mensagens agora! Espere 1 minutinho e tente de novo, por favorr." 
         });
     }
 
