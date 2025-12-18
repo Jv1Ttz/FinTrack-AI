@@ -1,0 +1,7 @@
+{
+  "name": "FinTrack AI",
+  "description": "Um gerenciador financeiro pessoal moderno que usa IA para analisar extratos bancários de prints ou arquivos de texto automaticamente.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
